@@ -192,6 +192,14 @@ p {
   font-size: 1.5em;
   color: #454A59;
 }
+@media (max-width: 500px) {
+  .main-nav .main-menu li {
+    padding: 0;
+  }
+  .main-nav .main-menu li a {
+    font-size: 1em;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -330,6 +338,7 @@ footer {
   .home .walk {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 1em;
   }
   .home .walk .walk-img {
