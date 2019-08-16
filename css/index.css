@@ -326,3 +326,20 @@ footer {
     padding: 1em 1.5em;
   }
 }
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+    margin: none;
+    flex: 1;
+    order: -1;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
