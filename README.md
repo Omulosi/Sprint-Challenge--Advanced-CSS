@@ -34,13 +34,48 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A fully resposive website renders well on a variety of devices whatever their
+screen sizes. They provide an optimal viewing experience for users without loss
+of information or at the expense of user experience across a wide array of
+devices. The content is fluidly adapted to the device used to access the website
+without loss of information.
+
+Adaptive websites provides breakpoints where content is rendered differently for
+a given screen that falls within some category of sizes e.g a different layout
+for mobile, desktop, tablet etc already pre-designed and ready to kick in if a
+user uses a particular device.
+
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+In mobile first design, we begin the design process by focussing on mobile
+views/ devices with smaller screen sizes and ensuring that appearance of our
+content is specifically suited to such smaller screens. Desktop design takes the
+opposite view. We start design the UI for the biggest screen possible and only 
+incorporate mobile design later on in the project.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It ensures we use whole number values that are easy to calculate and reason
+about. Rem units are based off of the font size of the html element (16px);
+using this default value results in fractional values. Using the '62.5%' rule
+sets the base html font-size to 10px, which is easier to reason about and
+quickly calculate new values.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a way of structuring your CSS styles such it becomes more
+modular and repetiton is limited. It brings features used in mainstrean programming
+languages such as variables, scope/name-spacing, mixins(functions) etc into CSS.
+This helps in dealing with complexity that would arise in large CSS files.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Favorite: Nesting selector inside one another
+
+The concept that gives me most trouble would be when to decide to refactor out
+sections into mixins and accomplish this effectively.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
