@@ -17,7 +17,7 @@
     .main-menu {
       flex: 1;
       width: 100%;
-      .flex-display(center, space-evenly, row);
+      .flex-display(center, center, row);
       margin-top: 1.2em;
       li {
         display: inline-flex;
@@ -34,9 +34,9 @@
 
     @media @phone {
       .main-menu {
+        justify-content: space-evenly;
         li {
-          padding: 0.5em;
-
+            padding: 1em;
           a {
             font-size: 1em;
           }
