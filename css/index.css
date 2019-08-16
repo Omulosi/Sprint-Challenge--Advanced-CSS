@@ -178,14 +178,14 @@ p {
 .main-nav .main-menu {
   flex: 1;
   display: flex;
-  margin-top: 1.2em;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
+  margin-top: 1.2em;
 }
 .main-nav .main-menu li {
   display: inline-flex;
-  padding-top: 1em;
-  padding-right: 1.7em;
-  padding-left: 1.7em;
+  padding: 1em 1.7em 1em;
 }
 .main-nav .main-menu li a {
   text-decoration: none;
