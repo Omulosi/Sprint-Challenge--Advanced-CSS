@@ -202,6 +202,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro .main-img {
+  width: 100%;
+}
+.home .intro .main-img img {
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+}
 .home .intro h2 {
   padding: 15px;
 }
